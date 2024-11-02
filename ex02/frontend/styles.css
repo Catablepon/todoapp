@@ -1,0 +1,52 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+#container {
+    width: 420px;
+    background-color: beige;
+    border-radius: 3px;
+    padding: 0ps 15px 0px 15px;
+    margin: 10px auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+h1 {
+    background-color: rgb(241, 243, 107);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+}
+
+ul {
+    list-style-type: square;
+    margin: 20px 0px 20px 0px;
+}
+
+input[type=text] {
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 300px;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+button {
+    border: 1px solid #ccc;
+    margin-left: 15px;
+    padding: 5px 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.delete {
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
+
+.edit {
+    cursor: pointer;
+    color: blue;
+    font-weight: bold;
+}
